@@ -1,0 +1,37 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# IDE Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Temporary Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Streamlit Local Cache
+.streamlit/
+
+# Large Raw and Processed Datasets (Reproducible via python src/download_data.py & src/data_cleaning.py)
+data/raw/air_quality_daily.csv
+data/raw/weather_daily.csv
+data/processed/india_air_quality_weather_merged.csv
