@@ -28,7 +28,7 @@ def test_processed_dataset_exists():
 def test_clean_dataset_shape_and_columns():
     """Verify cleaned dataset row count, column count, and required schema."""
     df = pd.read_csv(PROCESSED_PATH)
-    assert len(df) == 77150, f"Expected 77,150 rows, got {len(df)}"
+    assert len(df) >= 77150, f"Expected at least 77,150 rows, got {len(df)}"
     assert df["city"].nunique() == 50, f"Expected 50 unique cities, got {df['city'].nunique()}"
     
     required_columns = [
@@ -75,7 +75,7 @@ def test_temporal_features_validity():
     df["date"] = pd.to_datetime(df["date"])
     
     assert df["date"].min() == pd.Timestamp("2022-08-05"), f"Unexpected start date: {df['date'].min()}"
-    assert df["date"].max() == pd.Timestamp("2026-10-25"), f"Unexpected end date: {df['date'].max()}"
+    assert df["date"].max() >= pd.Timestamp("2026-10-25"), f"Unexpected end date: {df['date'].max()}"
     
     valid_seasons = {"Winter", "Summer / Pre-Monsoon", "Monsoon", "Post-Monsoon"}
     actual_seasons = set(df["season"].unique())

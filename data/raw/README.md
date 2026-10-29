@@ -35,11 +35,11 @@ from Leh to Port Blair. The dataset **updates automatically every day**.
 
 | File | Rows | Coverage |
 |---|---:|---|
-| `weather_daily.csv` | 124,500 | 2020-01-01 → 2026-10-25 |
-| `air_quality_daily.csv` | 77,150 | 2022-08-05 → 2026-10-25 |
+| `weather_daily.csv` | 124,600 | 2020-01-01 → 2026-10-27 |
+| `air_quality_daily.csv` | 77,250 | 2022-08-05 → 2026-10-27 |
 | `cities.csv` | 50 | city, state, region, coordinates, elevation |
 
-Last updated: **2026-10-26**. Weather history is being extended back to 2020-01-01,
+Last updated: **2026-10-28**. Weather history is being extended back to 2020-01-01,
 about one year per day.
 
 Highest average PM-based AQI: Agra (191), Delhi (182), Kanpur (137), Ludhiana (136), Amritsar (132). Lowest: Leh (10), Port Blair (19), Thiruvananthapuram (30), Coimbatore (30), Mysuru (31).

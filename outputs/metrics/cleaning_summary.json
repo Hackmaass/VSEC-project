@@ -1,8 +1,8 @@
 {
-  "cleaning_timestamp": "2026-10-27T11:46:25.393345",
+  "cleaning_timestamp": "2026-10-29T11:16:46.910038",
   "raw_summary": {
     "air_quality": {
-      "initial_rows": 77150,
+      "initial_rows": 77250,
       "initial_columns": 19,
       "column_names": [
         "date",
@@ -50,12 +50,12 @@
       "duplicate_city_date": 0,
       "date_range": [
         "2022-08-05",
-        "2026-10-25"
+        "2026-10-27"
       ],
       "unique_cities": 50
     },
     "weather": {
-      "initial_rows": 124500,
+      "initial_rows": 124600,
       "initial_columns": 14,
       "column_names": [
         "date",
@@ -93,7 +93,7 @@
       "duplicate_city_date": 0,
       "date_range": [
         "2020-01-01",
-        "2026-10-25"
+        "2026-10-27"
       ],
       "unique_cities": 50
     },
@@ -122,7 +122,7 @@
     }
   },
   "processed_summary": {
-    "total_rows": 77150,
+    "total_rows": 77250,
     "total_columns": 44,
     "column_names": [
       "date",
@@ -172,7 +172,7 @@
     ],
     "date_range": [
       "2022-08-05",
-      "2026-10-25"
+      "2026-10-27"
     ],
     "total_cities": 50,
     "total_states": 30,
@@ -224,28 +224,28 @@
       "season": 0
     },
     "aqi_category_distribution": {
-      "Moderate": 45608,
-      "Satisfactory": 18254,
-      "Poor": 8440,
-      "Very Poor": 2513,
+      "Moderate": 45687,
+      "Satisfactory": 18260,
+      "Poor": 8453,
+      "Very Poor": 2515,
       "Good": 2008,
       "Severe": 327
     },
     "dominant_pollutant_distribution": {
-      "O3": 69561,
-      "PM2.5": 5016,
-      "PM10": 1439,
+      "O3": 69656,
+      "PM2.5": 5018,
+      "PM10": 1442,
       "SO2": 927,
       "CO": 156,
       "NO2": 51
     },
     "regional_distribution": {
-      "North": 24688,
-      "South": 20059,
-      "West": 10801,
-      "Northeast": 7715,
-      "Central": 7715,
-      "East": 6172
+      "North": 24720,
+      "South": 20085,
+      "West": 10815,
+      "Northeast": 7725,
+      "Central": 7725,
+      "East": 6180
     }
   }
 }
